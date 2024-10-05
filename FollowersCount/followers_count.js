@@ -6,6 +6,11 @@ function increaseCount() {
     checkCountValue();
 }
 
+function resetCount(){
+    count = 0;
+    displayCount();
+}
+
 function displayCount() {
     document.getElementById('countDisplay').innerHTML=count;
 }
